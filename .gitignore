@@ -1,0 +1,23 @@
+# Environment dan file rahasia
+.env
+.env.*
+!.env.example
+
+# Dependency
+/vendor/
+/node_modules/
+
+# Laravel cache dan log
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Hasil build
+/public/build/
+/public/storage
+
+# File sistem
+.DS_Store
+Thumbs.db
